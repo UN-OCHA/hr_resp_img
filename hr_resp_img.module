@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Humanitarianresponse Responsive Images feature.
+ */
+
+include_once 'hr_resp_img.features.inc';
