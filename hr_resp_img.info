@@ -5,6 +5,7 @@ package = Humanitarianresponse
 dependencies[] = breakpoints
 dependencies[] = ctools
 dependencies[] = image
+dependencies[] = resp_img
 features[breakpoint_group][] = grid_4
 features[breakpoint_group][] = grid_4_with_margin
 features[ctools][] = breakpoints:default_breakpoint_group:1
