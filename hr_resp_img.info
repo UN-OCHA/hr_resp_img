@@ -11,7 +11,6 @@ features[breakpoint_group][] = grid_4
 features[breakpoint_group][] = grid_4_with_margin
 features[ctools][] = breakpoints:default_breakpoint_group:1
 features[ctools][] = picture:default_picture_mapping:1
-features[ctools][] = resp_img:default_resp_img_mapping:1
 features[features_api][] = api:1
 features[image][] = grid_4_mobile
 features[image][] = grid_4_narrow

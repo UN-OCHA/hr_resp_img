@@ -16,10 +16,6 @@ function hr_resp_img_ctools_plugin_api() {
   if ($module == "picture" && $api == "default_picture_mapping") {
     return array("version" => "1");
   }
-  list($module, $api) = func_get_args();
-  if ($module == "resp_img" && $api == "default_resp_img_mapping") {
-    return array("version" => "1");
-  }
 }
 
 /**
