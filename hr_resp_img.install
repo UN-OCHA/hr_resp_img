@@ -5,6 +5,7 @@
  */
 
 
+
 function hr_resp_img_update_7100() {
   // Make sure resp_img is disabled
   module_disable(array('resp_img'));
