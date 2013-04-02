@@ -38,8 +38,8 @@ function hr_resp_img_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '700',
-          'height' => '560',
+          'width' => '280',
+          'height' => '224',
         ),
         'weight' => '1',
       ),
@@ -126,8 +126,8 @@ function hr_resp_img_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '700',
-          'height' => '560',
+          'width' => '250',
+          'height' => '200',
         ),
         'weight' => '1',
       ),
