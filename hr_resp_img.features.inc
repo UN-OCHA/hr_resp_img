@@ -38,10 +38,10 @@ function hr_resp_img_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '280',
-          'height' => '224',
+          'width' => 280,
+          'height' => 224,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -60,10 +60,10 @@ function hr_resp_img_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '160',
-          'height' => '128',
+          'width' => 160,
+          'height' => 128,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -82,10 +82,10 @@ function hr_resp_img_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '220',
-          'height' => '176',
+          'width' => 220,
+          'height' => 176,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -104,10 +104,10 @@ function hr_resp_img_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '280',
-          'height' => '224',
+          'width' => 280,
+          'height' => 224,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -126,10 +126,10 @@ function hr_resp_img_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '250',
-          'height' => '200',
+          'width' => 250,
+          'height' => 200,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -148,10 +148,10 @@ function hr_resp_img_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '130',
-          'height' => '104',
+          'width' => 130,
+          'height' => 104,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -170,10 +170,10 @@ function hr_resp_img_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '190',
-          'height' => '152',
+          'width' => 190,
+          'height' => 152,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -192,10 +192,10 @@ function hr_resp_img_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '250',
-          'height' => '200',
+          'width' => 250,
+          'height' => 200,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
