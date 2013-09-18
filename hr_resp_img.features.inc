@@ -7,12 +7,10 @@
 /**
  * Implements hook_ctools_plugin_api().
  */
-function hr_resp_img_ctools_plugin_api() {
-  list($module, $api) = func_get_args();
+function hr_resp_img_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "breakpoints" && $api == "default_breakpoint_group") {
     return array("version" => "1");
   }
-  list($module, $api) = func_get_args();
   if ($module == "picture" && $api == "default_picture_mapping") {
     return array("version" => "1");
   }
@@ -44,6 +42,7 @@ function hr_resp_img_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'grid_4_mobile',
   );
 
   // Exported image style: grid_4_narrow.
@@ -66,6 +65,7 @@ function hr_resp_img_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'grid_4_narrow',
   );
 
   // Exported image style: grid_4_normal.
@@ -88,6 +88,7 @@ function hr_resp_img_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'grid_4_normal',
   );
 
   // Exported image style: grid_4_wide.
@@ -110,6 +111,7 @@ function hr_resp_img_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'grid_4_wide',
   );
 
   // Exported image style: grid_4_with_margin_mobile.
@@ -132,6 +134,7 @@ function hr_resp_img_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'grid_4_with_margin_mobile',
   );
 
   // Exported image style: grid_4_with_margin_narrow.
@@ -154,6 +157,7 @@ function hr_resp_img_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'grid_4_with_margin_narrow',
   );
 
   // Exported image style: grid_4_with_margin_normal.
@@ -176,6 +180,7 @@ function hr_resp_img_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'grid_4_with_margin_normal',
   );
 
   // Exported image style: grid_4_with_margin_wide.
@@ -198,6 +203,7 @@ function hr_resp_img_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'grid_4_with_margin_wide',
   );
 
   return $styles;
